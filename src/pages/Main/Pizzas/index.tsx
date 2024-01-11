@@ -1,5 +1,5 @@
 import { Head } from "../../../components/Head"
-import { Snacks } from "../../../components/Snack"
+import { Snacks } from "../../../components/Snacks"
 import { SnackTitle } from "../../../components/SnackTitle"
 
 export default function Pizzas() {

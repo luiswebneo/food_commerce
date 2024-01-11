@@ -1,4 +1,4 @@
-import { Snacks } from "../../../components/Snack";
+import { Snacks } from "../../../components/Snacks";
 import { Head } from "../../../components/Head"
 import { SnackTitle } from "../../../components/SnackTitle"
 
