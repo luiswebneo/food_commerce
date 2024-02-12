@@ -45,6 +45,10 @@ export const Container = styled.div`
 
         button {
           background: none;
+          flex: 0;
+          border: none;
+
+          display: flex;
           align-items: center;
           justify-content: center;
 
