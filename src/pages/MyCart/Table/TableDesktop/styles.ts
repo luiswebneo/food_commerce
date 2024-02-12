@@ -38,7 +38,21 @@ export const Container = styled.div`
         font-weight: 700;
         font-size: 1.5rem;
       }
-      /* quantidade */
+      div{
+        display: flex;
+        align-items: center;
+        border: none;
+
+        button {
+          background: none;
+          align-items: center;
+          justify-content: center;
+
+          img{
+            width: 1.25rem;
+          }
+        }
+      }
 
       h5{
         font-weight: 700;
