@@ -62,7 +62,7 @@ export const Container = styled.div`
         font-weight: 700;
         font-size: 1.5rem;
       }
-      &:first-of-type{
+      &:first-child{
         width: 7.5rem;
         padding-left: 0;
         padding-right: 0;
