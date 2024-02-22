@@ -1,12 +1,12 @@
 import { currencyFormat } from "../../../../helpers/currencyFormat";
 import { useCart } from "../../../../hooks/useCart";
-import { FaTrashAlt } from 'react-icons/fa'
+import { FaTrashAlt } from "react-icons/fa";
 
 import minusImg from "../../../../assets/circle-minus.svg";
 import plusImg from "../../../../assets/circle-plus.svg";
 
 import { Container } from "./styles";
-import { ConfirmOrder } from "../../../../components/ConfirmOrder";
+import { ConfirmOrder } from "../../../../components/OderCloseAction/ConfirmOrder";
 
 export function TableMobile() {
   const { cart, removeSnackFromCart, snackCartIncrement, snackCartDecrement } =
